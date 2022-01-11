@@ -14,6 +14,7 @@
 .contact-title {
     color: orangered;
 }
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -51,7 +52,6 @@
     --bs-info-rgb: 13, 202, 240;
     --bs-warning-rgb: 255, 193, 7;
     --bs-danger-rgb: 220, 53, 69;
-    
     --bs-dark-rgb: 33, 37, 41;
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 0, 0, 0;
@@ -88,7 +88,7 @@ body {
     line-height: var(--bs-body-line-height);
     color: var(--bs-body-color);
     text-align: var(--bs-body-text-align);
-    background-color:  cornsilk;
+    background-color: cornsilk;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -8399,6 +8399,7 @@ textarea.form-control-lg {
     text-shadow: 3px -2px 5px black;
     text-align: center;
 }
+
 .text-muted {
     --bs-text-opacity: 1;
     color: #6c757d !important;
@@ -12083,7 +12084,7 @@ header.masthead {
 
     #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
         position: relative;
-        display: block;        
+        display: block;
     }
 
         #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
@@ -12100,7 +12101,7 @@ header.masthead {
             color: #fff;
             background: rgba(244, 98, 58, 0.9);
             transition: opacity 0.25s ease;
-            text-align: center;           
+            text-align: center;
         }
 
             #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
@@ -12111,7 +12112,7 @@ header.masthead {
             }
 
             #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-                font-size: 1.2rem;               
+                font-size: 1.2rem;
             }
 
         #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
@@ -12119,7 +12120,7 @@ header.masthead {
         }
 
 #about {
-   /* background-image: url('../assets/img/portfolio/thumbnails/Selfie.jpg');
+    /* background-image: url('../assets/img/portfolio/thumbnails/Selfie.jpg');
     height: 555px;*/
     box-shadow: 3px -2px 5px black;
     border: 4px solid;
@@ -12127,19 +12128,28 @@ header.masthead {
     background-repeat: no-repeat;*/
 }
 
-#about p {
-    float:right;
-}
+    #about p {
+        float: right;
+    }
 
 #contact {
     background-image: url('../assets/img/portfolio/fullsize/desktopBackground.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.col lg-8 {
-    text-align: left;
+
+.text-white mt-0 {
+    align-content:center;
 }
 
-.col-sm-4 {
-    float: right;
+.resume {
+    text-align: center;
 }
+
+.pdfbutton {
+    text-align: center;
+}
+
+
+
+
