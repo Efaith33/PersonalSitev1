@@ -12150,6 +12150,12 @@ header.masthead {
     text-align: center;
 }
 
+.accordion {
+    border: double;
+    border-color: black;
+    box-shadow: 3px -2px 5px black;
+}
+
 
 
 
