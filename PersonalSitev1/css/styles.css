@@ -12153,7 +12153,9 @@ header.masthead {
 .accordion {
     border: double;
     border-color: black;
-    box-shadow: 3px -2px 5px black;
+    box-shadow: 20px 20px black;
+    margin: auto;
+   
 }
 
 .intro {
