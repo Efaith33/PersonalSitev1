@@ -74,11 +74,10 @@
     <Content Include="assets\img\portfolio\fullsize\3.jpg" />
     <Content Include="assets\img\portfolio\fullsize\6.jpg" />
     <Content Include="assets\img\portfolio\fullsize\desktopBackground.jpg" />
-    <Content Include="assets\img\portfolio\fullsize\profilePic.jpg" />
-    <Content Include="assets\img\portfolio\fullsize\profilePic2.jpg" />
     <Content Include="assets\img\portfolio\fullsize\wood-background.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\5651981.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\AbbeyCentriq.jpg" />
+    <Content Include="assets\img\portfolio\thumbnails\AndrewAllen.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\DonCentriq.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\1.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\2.jpg" />
@@ -90,7 +89,6 @@
     <Content Include="assets\img\portfolio\thumbnails\joemcquire.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\patrickstephen.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\profilepic.jpg" />
-    <Content Include="assets\img\portfolio\thumbnails\Selfie.jpg" />
     <Content Include="assets\linkedinIcon.png" />
     <Content Include="css\styles.css" />
     <Content Include="index.html" />
