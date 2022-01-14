@@ -5097,8 +5097,8 @@ textarea.form-control-lg {
 }
 
 .accordion-button:not(.collapsed) {
-    color: #dc5834;
-    background-color: #feefeb;
+    color: black;
+    background-color: sandybrown;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 
@@ -12062,7 +12062,7 @@ header.masthead {
     }
 
         header.masthead p {
-            font-size: 1.15rem;
+            font-size: 1.29rem;
         }
 
         header.masthead h1, header.masthead .h1 {
@@ -12134,7 +12134,7 @@ header.masthead {
 
 #contact {
     background-image: url('../assets/img/portfolio/fullsize/desktopBackground.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -12158,10 +12158,38 @@ header.masthead {
    
 }
 
-.intro {
-    color: whitesmoke;
-    text-align: center;
+.accordion-header{
+   text-align:center;
 }
+
+
+
+.accordion-button {
+    background-color: sandybrown;
+    padding: 10px 0px;
+}
+
+.accordion-body {
+    background-color: cornsilk;
+}
+
+.aboutme {
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+#classmates img {
+    border-radius: 20px;
+}
+
+#classmates a .fa {
+    font-size: 40px;
+}
+
+
+
+
+
 
 
 

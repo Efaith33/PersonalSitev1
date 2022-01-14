@@ -74,6 +74,7 @@
     <Content Include="assets\img\portfolio\fullsize\3.jpg" />
     <Content Include="assets\img\portfolio\fullsize\6.jpg" />
     <Content Include="assets\img\portfolio\fullsize\desktopBackground.jpg" />
+    <Content Include="assets\img\portfolio\fullsize\Selfie.jpg" />
     <Content Include="assets\img\portfolio\fullsize\wood-background.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\5651981.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\AbbeyCentriq.jpg" />
@@ -84,7 +85,7 @@
     <Content Include="assets\img\portfolio\thumbnails\3.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\6.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\HeadshotEdit.jpg" />
-    <Content Include="assets\img\portfolio\thumbnails\Janet.jpg" />
+    <Content Include="assets\img\portfolio\thumbnails\Janet 3.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\JasonCentriq.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\joemcquire.jpg" />
     <Content Include="assets\img\portfolio\thumbnails\patrickstephen.jpg" />
@@ -93,6 +94,7 @@
     <Content Include="css\styles.css" />
     <Content Include="index.html" />
     <Content Include="js\scripts.js" />
+    <Content Include="test.html" />
     <Content Include="Web.config" />
     <Content Include="_archive\assets\favicon.ico" />
     <Content Include="_archive\assets\img\portfolio\fullsize\1.jpg" />
@@ -108,7 +110,7 @@
     <Content Include="_archive\assets\img\portfolio\thumbnails\5.jpg" />
     <Content Include="_archive\assets\img\portfolio\thumbnails\6.jpg" />
     <Content Include="_archive\css\styles.css" />
-    <Content Include="_archive\index.html" />
+    <Content Include="_archive\Original.html" />
     <Content Include="_archive\js\scripts.js" />
   </ItemGroup>
   <ItemGroup>
