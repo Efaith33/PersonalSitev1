@@ -163,7 +163,7 @@ h6, .h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 abbr[title],
@@ -905,7 +905,7 @@ progress {
 
 .g-4,
 .gx-4 {
-    --bs-gutter-x: 1.5rem;
+    --bs-gutter-x: 7.5rem;
 }
 
 .g-4,
@@ -1556,7 +1556,7 @@ progress {
 
     .g-lg-5,
     .gx-lg-5 {
-        --bs-gutter-x: 3rem;
+        --bs-gutter-x: 7rem;
     }
 
     .g-lg-5,
@@ -3394,8 +3394,8 @@ textarea.form-control-lg {
     }
 
 .btn-light {
-    color: #000;
-    background-color: #f8f9fa;
+    color: #dee2e6 ;
+    background-color: black;
     border-color: #f8f9fa;
 }
 
@@ -8141,7 +8141,7 @@ textarea.form-control-lg {
 }
 
 .pt-5 {
-    padding-top: 3rem !important;
+    padding-top: 0rem !important;
 }
 
 .pe-0 {
@@ -12057,12 +12057,12 @@ header.masthead {
     header.masthead {
         height: 100vh;
         min-height: 40rem;
-        padding-top: 4.5rem;
+        padding-top: 2.9rem;
         padding-bottom: 0;
     }
 
         header.masthead p {
-            font-size: 1.29rem;
+            font-size: 1.09rem;
         }
 
         header.masthead h1, header.masthead .h1 {
@@ -12174,8 +12174,10 @@ header.masthead {
 }
 
 .aboutme {
+    --bs-gutter-x: 33rem;
+    background: rgba(255,248,220,.9);
     font-size: 60px;
-    color: whitesmoke;
+    color: black;
 }
 
 #classmates img {
@@ -12184,7 +12186,17 @@ header.masthead {
 
 #classmates a .fa {
     font-size: 40px;
+    text-shadow: 2px 2px black;
 }
+
+.mb-2 a {
+    text-shadow: 2px 2px black;
+}
+
+.b-2 i {
+    font-size: 40px;
+}
+
 
 
 
