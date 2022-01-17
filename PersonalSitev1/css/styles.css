@@ -12175,7 +12175,7 @@ header.masthead {
 
 .aboutme {
     --bs-gutter-x: 33rem;
-    background: rgba(255,248,220,.9);
+    background: rgba(255,248,220,.8);
     font-size: 60px;
     color: black;
 }
