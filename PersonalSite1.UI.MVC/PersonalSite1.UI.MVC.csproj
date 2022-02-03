@@ -124,19 +124,71 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\assets\blacktieFavicon.png" />
+    <Content Include="Content\assets\favicon.ico" />
+    <Content Include="Content\assets\img\alinc %282%29.jpg" />
+    <Content Include="Content\assets\img\flag.jpg" />
+    <Content Include="Content\assets\img\portfolio\fullsize\1.jpg" />
+    <Content Include="Content\assets\img\portfolio\fullsize\2.jpg" />
+    <Content Include="Content\assets\img\portfolio\fullsize\3.jpg" />
+    <Content Include="Content\assets\img\portfolio\fullsize\6.jpg" />
+    <Content Include="Content\assets\img\portfolio\fullsize\desktopBackground.jpg" />
+    <Content Include="Content\assets\img\portfolio\fullsize\Selfie.jpg" />
+    <Content Include="Content\assets\img\portfolio\fullsize\wood-background.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\1.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\2.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\3.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\5651981.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\6.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\AbbeyCentriq.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\AndrewAllen.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\DonCentriq.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\HeadshotEdit.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\Janet 3.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\JasonCentriq.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\joemcquire.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\patrickstephen.jpg" />
+    <Content Include="Content\assets\img\portfolio\thumbnails\profilepic.jpg" />
+    <Content Include="Content\assets\linkedinIcon.png" />
+    <Content Include="Content\css\styles.css" />
+    <Content Include="Content\index.html" />
+    <Content Include="Content\js\scripts.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="_archive\assets\blacktieFavicon.png" />
+    <Content Include="_archive\assets\favicon.ico" />
+    <Content Include="_archive\assets\img\portfolio\fullsize\1.jpg" />
+    <Content Include="_archive\assets\img\portfolio\fullsize\2.jpg" />
+    <Content Include="_archive\assets\img\portfolio\fullsize\3.jpg" />
+    <Content Include="_archive\assets\img\portfolio\fullsize\6.jpg" />
+    <Content Include="_archive\assets\img\portfolio\fullsize\desktopBackground.jpg" />
+    <Content Include="_archive\assets\img\portfolio\fullsize\Selfie.jpg" />
+    <Content Include="_archive\assets\img\portfolio\fullsize\wood-background.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\1.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\2.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\3.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\5651981.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\6.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\AbbeyCentriq.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\AndrewAllen.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\DonCentriq.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\HeadshotEdit.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\Janet 3.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\JasonCentriq.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\joemcquire.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\patrickstephen.jpg" />
+    <Content Include="_archive\assets\img\portfolio\thumbnails\profilepic.jpg" />
+    <Content Include="_archive\assets\linkedinIcon.png" />
+    <Content Include="_archive\css\styles.css" />
+    <Content Include="_archive\js\scripts.js" />
+    <Content Include="Content\assets\Resume IT.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -158,24 +210,21 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_OriginalLayout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="_archive\assets\Resume IT.pdf" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />

@@ -244,12 +244,12 @@ sup {
 }
 
 a {
-    color: orangered;
+    color: #f4623a;
     text-decoration: underline;
 }
 
     a:hover {
-        color: black;
+        color: #c34e2e;
     }
 
     a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -1219,6 +1219,7 @@ progress {
     }
 
     .col-md-8 {
+        text-shadow: 1px 2px 2px black;
         flex: 0 0 auto;
         width: 66.66666667%;
     }
@@ -12204,6 +12205,11 @@ header.masthead {
     height: 400px;
     border-radius: 10px;
 }*/
+
+#quote {
+    text-align: center;
+    padding: 2em;
+}
 
 
 
