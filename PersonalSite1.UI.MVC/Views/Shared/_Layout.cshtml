@@ -16,12 +16,34 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="~/Content/css/styles.css" rel="stylesheet" />
-    
+    @* link for ajax/Jquery *@
+    <link href="https://cdnjs.com/libraries/jquery/" />
 </head>
 
 <body>
     @RenderBody()
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    <script src="~/Content/js/ajax.js"></script>
+    <script>
+                $('#contactConfirm').hide();
+          $('#ContactCreateForm').submit(function (e) {
+              var formData = $(this).serializeArray();
+              e.preventDefault();
+              $.ajax({
+                url: '@Url.Action("ContactAjax", "Home")',
+                type: 'POST',
+                data: formData,
+                datatype: 'json',
+                success: function (data) {
+                    $('#contactForm').hide();
+                    // In your style sheet you should have aline to hide this div until this time:
+                    // #contactConfirm{dispaly:none;}
+                    $('#contactConfirm').show();
+                }
+            });
+          });
+    </script>
+
 </body>
 </html>

@@ -8,16 +8,16 @@ namespace PersonalSite1.UI.MVC.Models
 {
     public class ContactViewModel
     {
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "Name is Required")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "Email is Required")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
         public string Subject { get; set; }
 
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "Message is Required")]
         [UIHint("MultilineText")]
         public string Message { get; set; }
 

@@ -156,6 +156,7 @@
     <Content Include="Content\assets\linkedinIcon.png" />
     <Content Include="Content\css\styles.css" />
     <Content Include="Content\index.html" />
+    <Content Include="Content\js\ajax.js" />
     <Content Include="Content\js\scripts.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -189,6 +190,7 @@
     <Content Include="_archive\css\styles.css" />
     <Content Include="_archive\js\scripts.js" />
     <Content Include="Content\assets\Resume IT.pdf" />
+    <Content Include="Configs\AppSecretKeys.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -216,6 +218,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="_archive\assets\Resume IT.pdf" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\ContactAjax.cshtml" />
+    <Content Include="Views\Home\EmailConfirm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
