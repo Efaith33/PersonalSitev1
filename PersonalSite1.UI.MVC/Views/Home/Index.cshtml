@@ -7,6 +7,12 @@
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="@Url.Action("Index", "Home")">Eric Faith</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="row">
+                <div>
+                    <a href="https://github.com/Efaith33" target="_blank"><i class="fa fa-github fs-2 mb-3 p-2"></i></a>
+                    <a href="https://www.linkedin.com/in/eric-faith-23b352229/" target="_blank"><i class="fa fa-linkedin fs-2 mb-3"></i></a>
+                </div>
+            </div>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#about">Resume</a></li>
@@ -37,7 +43,7 @@
     </header>
     <!-- About-->
 
-    <div id="quote"><img src="~/Content/assets/img/alinc (2).jpg" /></div>
+    <div id="quote"><img src="~/Content/assets/img/alinc (2).jpg" data-aos="fade-up" /></div>
     <section class="page-section bg-primary" id="about">
         <div class="row gx-4 gx-lg-5">
             <div class="col-md-4 text-center">
@@ -386,58 +392,6 @@
                         @Html.Partial("EmailConfirm", new PersonalSite1.UI.MVC.Models.ContactViewModel())
                     </div>
                 </div>
-                @*<div class="col-lg-6">
-                    <div id="contactlabels">
-                        @using (Html.BeginForm())
-                        {
-                            @Html.AntiForgeryToken()
-                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                            <div class="form-group row">
-                                <div class="col-md-12">
-                                    <fieldset>
-                                        <label for="c_fname">Full Name <span class="text-danger">*</span></label>
-                                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
-                                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
-                                    </fieldset>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-12">
-                                    <Fieldset>
-                                        <label for="c_email">Email <span class="text-danger">*</span></label>
-                                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
-                                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
-                                    </Fieldset>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-12">
-                                    <fieldset>
-                                        <label for="c_subject">Subject <span class="text-danger">*</span> </label>
-                                        @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control" } })
-                                        @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
-                                    </fieldset>
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                                <div class="col-md-12">
-                                    <fieldset>
-                                        <label for="c_message">Message <span class="text-danger">*</span></label>
-                                        @Html.EditorFor(model => model.Message, new { htmlAttributes = new { @class = "form-control" } })
-                                        @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
-                                    </fieldset>
-                                </div>
-                            </div>
-                        }
-                    </div>
-                    <div>
-                        <div class="mt-2">
-                            <fieldset><button type="submit" class="btn btn-primary">Send Message</button></fieldset>
-                        </div>
-                    </div>
-
-                </div>*@
             </div>
 
         </div>
@@ -446,8 +400,8 @@
     <footer class="bg-light py-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                <i class="bi-phone fs-2 mb-3 text-muted"></i>
-
+                <a href="https://github.com/Efaith33" target="_blank"><i class="fa fa-github fs-2 mb-3 p-2"></i></a>
+                <a href="https://www.linkedin.com/in/eric-faith-23b352229/" target="_blank"><i class="fa fa-linkedin fs-2 mb-3"></i></a>
             </div>
             <div class="container px-4 px-lg-5">
                 <div class="copyright">Copyright &copy; @DateTime.Now.Year - Eric Faith</div>
@@ -460,6 +414,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
     <!-- Core theme JS-->
     <script src="~/Content/js/scripts.js"></script>
-    @*<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>*@
+    
 </body>
 
