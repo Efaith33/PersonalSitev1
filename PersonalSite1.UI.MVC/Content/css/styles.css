@@ -12175,9 +12175,9 @@ header.masthead {
 }
 
 .aboutme {
-    --bs-gutter-x: 33rem;
+    /*--bs-gutter-x: 33rem;*/
     background: rgba(255,248,220,.9);
-    font-size: 60px;
+    font-size: 2em;
     color: black;
 }
 
@@ -12206,6 +12206,7 @@ header.masthead {
 }*/
 
 #quote {
+    font-size: 2em;
     text-align: center;
     padding: 2em;
 }
