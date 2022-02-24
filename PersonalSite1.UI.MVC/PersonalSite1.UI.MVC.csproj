@@ -136,7 +136,13 @@
     <Content Include="Content\assets\img\portfolio\fullsize\2.jpg" />
     <Content Include="Content\assets\img\portfolio\fullsize\3.jpg" />
     <Content Include="Content\assets\img\portfolio\fullsize\6.jpg" />
+    <Content Include="Content\assets\img\portfolio\fullsize\Capture10.PNG" />
+    <Content Include="Content\assets\img\portfolio\fullsize\Capture2.PNG" />
+    <Content Include="Content\assets\img\portfolio\fullsize\Capture3.PNG" />
+    <Content Include="Content\assets\img\portfolio\fullsize\Capture4.PNG" />
+    <Content Include="Content\assets\img\portfolio\fullsize\Capture5.PNG" />
     <Content Include="Content\assets\img\portfolio\fullsize\desktopBackground.jpg" />
+    <Content Include="Content\assets\img\portfolio\fullsize\edulogo.png" />
     <Content Include="Content\assets\img\portfolio\fullsize\Selfie.jpg" />
     <Content Include="Content\assets\img\portfolio\fullsize\wood-background.jpg" />
     <Content Include="Content\assets\img\portfolio\thumbnails\1.jpg" />
