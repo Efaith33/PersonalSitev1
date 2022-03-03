@@ -28,12 +28,12 @@
         <div class="container px-4 px-lg-5 h-100">
             <div class="row gx-4 h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-8 align-self-end pb-5 m-12">
-                    <h1 class="text-black font-weight-bold">About Me</h1>
+                    <h1 class="text-black font-weight-bold pb-5">About Me</h1>
                     <hr class="divider" />
                 </div>
                 <div class="col-lg-8 pt-4 align-self-baseline">
                     <p class="aboutme">
-                        Hello, welcome to my portfolio. My name is Eric Faith and I am a Full Stack Web Developer. I attended and completed the Full Stack Wed Development Program from Centriq IT out of St. Louis, MO. I am from Southern Illinois and have lived here most of my life. I come from industry jobs such as Factory, railroad, ups where I grew my abilities in customer service , technical cpu/program use, team work, project managment, deadline driven , collaberation of multiple teams to complete a job or task. Given a general idea of what they want, applying that with very little or no oversite. I'm a hands on learner, a technical progressive kind of person, enjoy problem solving, Attention to detail is key to me, to dig in and do the work. I enjoy working with others and have that ability to exchange ideas. At heart I'm a traveler, I have a very intuitive mind, enjoy tinkering, critial-thinking and always learning. Really excited to continue to learn in this career path with web developing. I enjoy seeing the progression in my own abilities and take these expericences and apply that to the services that I can provide to the IT Industry.
+                        I attended the Full Stack Web Development Program  at Centriq IT in St. Louis, Missouri. Having come from Central Illinois, his background is in Industry jobs such as Factory, Railroad and UPS where he was able to hone in on his customer service skills, technical cpu/program use, teamwork,and  project management with  multiple teams to complete a task. Eric’s learning style is hands on, with an acute attention to detail. He is able to think critically and intuitively to find an unorthodox solution to a common problem. For Eric, the most exciting part of deciding to go back to school was the opportunity to learn and master something new. In his free time, Eric enjoys traveling to new destinations, live music with close friends, and miles of open road on a Harley Davidson. He looks forward to all of the projects that this new path will bring him.
                     </p>
 
                 </div>
@@ -59,7 +59,7 @@
                         <a class="btn btn-light btn-xl" href="~/Content/assets/Resume IT.pdf" target="_blank">PDF</a>
                     </div>
                 </div>
-                <!--Add margin bottom on above and add margin top on below-->
+                <!--Accordian-->
                 <div class="col-md-12 mt-5" data-aos="fade-left" data-aos-duration="2000">
                     <div class="col-md-8 accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item1">
@@ -216,110 +216,91 @@
             </div>
         </div>
     </section>
-    <!-- Services-- favicon image above each section for appropriate page-->
+    <!-- Links-->
     <section class="page-section" id="services">
-        <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0">Links</h2>
+        <div class="container">
+            <h2 class="text-center">Links</h2>
             <hr class="divider" />
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2">
-                            <a href="http://fed1studioproject.eric-faith.net" target="_blank" title="Higher Learning"><i class="bi-gem fs-1 text-primary">Static<br /> Website</i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2">
-                            <a href="https://github.com/Efaith33/DungeonApp2" target="_blank" title="The Riddler"><i class="bi-laptop fs-1 text-primary">Dungeon Application</i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2">
-                            <a href="http://StoreFront.eric-faith.net" target="_blank" title="Space Labs Inc"><i class="bi-globe fs-1 text-primary">StoreFront Application</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
     <!-- Portfolio-->
     <div id="portfolio" data-aos="flip-up" data-aos-duration="2000">
-        <div class="container-fluid p-0">
-            <div class="row g-0">
-                <div class="col-lg-4 col-sm-6 p-2">
-                    <p class="text-muted mb-0">Fictional small business site that offers instructional courses. I built this site hard-coded using HTMl, CSS and Front-End Development in Visual Studios. This site is a representation of myself and furthering my education.  You can browse my static website by clicking the image below. </p>
-                    <a class="active" href="http://fed1studioproject.eric-faith.net" target="_blank" title="Higher Learning">
-                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/edulogo.png" alt="..." />
-                    </a>
+        <div class="container-fluid">
+            <div class="row col-md-12">
+                <div class="col-md-3 p-2 text-center">
+                    <div class="col-md-10">
+                        <div class="mb-2">
+                            <a href="http://fed1studioproject.eric-faith.net" target="_blank" title="Higher Learning"><i class="bi-gem fs-1 text-primary">Static Website</i></a>
+                        </div>
+                        <a class="active" href="http://fed1studioproject.eric-faith.net" target="_blank" title="Higher Learning">
+                            <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/edulogo.png" alt="education globe" />
+                        </a>
+                        <p class="text-muted mt-3">Fictional small business site that offers instructional courses. I built this site hard-coded using HTML, CSS and Front-End Development in Visual Studios. This site is a representation of myself and furthering my education.  You can browse my static website by clicking the image below. </p>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 p-2">
-                    <p class="text-muted mb-0">This is a Console Game Application I built using C# Fundamentals and designed with Linear Progression in Visual Studios. The application is made up of a player that must face a challenge to beat, in order to proceed throughout the game or onto the next room. Click the image below for my Github repository.</p>
+                <div class="col-md-3 p-2 text-center">
+                    <div class="col-md-10">
+                        <div class="mb-2">
+                            <a href="https://github.com/Efaith33/DungeonApp2" target="_blank" title="The Riddler"><i class="bi-laptop fs-1 text-primary">Dungeon Application</i></a>
+                        </div>
+                    </div>
                     <a href="https://github.com/Efaith33/DungeonApp2" target="_blank" title="The Riddler">
-                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/Capture5.PNG" alt="..." />
-
+                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/Capture5.PNG" style="max-height:200px" alt="riddler logo" />
                     </a>
+                    <p class="text-muted mt-3">This is a Console Game Application I built using C# Fundamentals and designed with Linear Progression in Visual Studios. The application is made up of a player that must face a challenge to beat, in order to proceed throughout the game or onto the next room. Click the image below for my Github repository.</p>
                 </div>
-                <div class="col-lg-4 col-sm-6 p-2">
-                    <p class="text-muted mb-0">This is another small business project. Fictional site simulation based on an online store, the theme I used was Space Tech. I used my knowledge of Data, DateSchema, Tables, and SQL Server Management to build this site. Click the image below to see more of my StoreFront site.</p>
+                <div class="col-md-3 p-2 text-center">
+                    <div class="mb-2">
+                        <a href="http://StoreFront.eric-faith.net" target="_blank" title="Space Labs Inc"><i class="bi-globe fs-1 text-primary">StoreFront Application</i></a>
+                    </div>
                     <a href="http://StoreFront.eric-faith.net" target="_blank" title="Space Labs Inc">
-                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/Capture2.PNG" />
+                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/Capture2.PNG" style="max-height:200px" alt="space ship" />
+                    </a>
+                    <p class="text-muted mt-3">This is another small business project. Fictional site simulation based on an online store, the theme I used was Space Tech. I used my knowledge of Data, DateSchema, Tables, and SQL Server Management to build this site. Click the image below to see more of my StoreFront site.</p>
+                </div>
+                <div class="col-md-3 p-2 text-center">
+                    <div class="mb-2">
+                        <a href="http://todo.eric-faith.net" target="_blank" title="React ToDo "><i class="bi-globe fs-1 text-primary">React Application</i></a>
+                    </div>
+                    <a class="active" href="http://todo.eric-faith.net" target="_blank" title="React ToDo App">
+                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/Capture3.PNG" alt="react login" />
+                        <p class="text-muted mt-3">React application built using Visual Studio Code and my .NET Web API. This project is built with full CRUD functionality. I utilized this application to show a Todo List I made for items I need to attend to.</p>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <section class="page-section" id="services">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2">
-                            <a href="http://todo.eric-faith.net" target="_blank" title="React ToDo "><i class="bi-globe fs-1 text-primary">React Application</i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="mt-5">
+    <div id="portfolio" data-aos="flip-up" data-aos-duration="2000">
+        <div class="container-fluid">
+            <div class="row col-md-12 m-4 px-2">
+                <div class="col-md-4 p-2 text-center">
+                    <div class="col-md-10">
                         <div class="mb-2">
                             <a href="http://todoapi.eric-faith.net" target="_blank" title="ToDo ASP.NET"><i class="bi-laptop fs-1 text-primary">ASP.NET Application</i></a>
                         </div>
+                        <a href="http://todoapi.eric-faith.net" target="_blank" title="Todo ASP.NET">
+                            <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/Capture4.PNG" style="max-height:200px" alt="ASP.Net" />
+                        </a>
+                        <p class="text-muted mt-3">ASP.NET Web API Application. Built using Visual Studio and Visual Studio Code for my React Application</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2">
-                            <a href="http://sat.eric-faith.net" target="_blank" title="SAT Paired Project"><i class="bi-gem fs-1 text-primary">SAT Paired Project</i></a>
-                        </div>
+                <div class="col-md-4 p-2 text-center">
+                    <div class="mb-2">
+                        <a href="http://sat.eric-faith.net" target="_blank" title="SAT Paired Project"><i class="bi-gem fs-1 text-primary">SAT Paired<br/> Project</i></a>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div id="portfolio" data-aos="flip-up" data-aos-duration="2000">
-        <div class="container-fluid p-0">
-            <div class="row g-0">
-                <div class="col-lg-4 col-sm-6 p-2">
-                    <p class="text-muted mb-0">React application built using Visual Studio Code</p>
-                    <a class="active" href="http://todo.eric-faith.net" target="_blank" title="React ToDo App">
-                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/Capture3.PNG" alt="..." />
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6 p-2">
-                    <p class="text-muted mb-0">ASP.NET Web API Application. Built using Visual Studio and Visual Studio Code.</p>
-                    <a href="http://todoapi.eric-faith.net" target="_blank" title="Todo ASP.NET">
-                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/Capture4.PNG" alt="..." />
-
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6 p-2">
-                    <p class="text-muted mb-0">This is a full stack paired project a classmate and I built.</p>
                     <a href="http://sat.eric-faith.net" target="_blank" title="SAT Paired Project">
-                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/Capture10.PNG" />
+                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/Capture10.PNG" style="max-height:200px" alt="SAT Site"/>
                     </a>
+                    <p class="text-muted mt-3">This is a full stack paired project a classmate and I built. Scott Cashion built this site on a fictional university that has full CRUD functionality for students, courses, classes, Enrollment, and Student Status</p>
+                </div>
+                <div class="col-md-4 p-2 text-center">
+                    <div class="mb-2">
+                        <a href="http://StoreFront.eric-faith.net" target="_blank" title="BethBorger"><i class="bi-globe fs-1 text-primary">Class Project<br/>Beth Boerger</i></a>
+                    </div>
+                    <a href="#" target="_blank" title="Space Labs Inc">
+                        <img class="img-fluid" src="~/Content/assets/img/portfolio/fullsize/BethBoergerLogo.jpg" style="max-height:200px" alt="Beth Boerger" />
+                    </a>
+                    <p class="text-muted mt-3">Class project that was built for a real life client, Beth Boerger. She is running for CS-1 School Board District out of Kansas City.</p>
                 </div>
             </div>
         </div>
