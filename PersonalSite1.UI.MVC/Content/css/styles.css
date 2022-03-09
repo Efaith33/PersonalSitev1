@@ -12118,15 +12118,6 @@ header.masthead {
             opacity: 1;
         }
 
-#about {
-    /* background-image: url('../assets/img/portfolio/thumbnails/Selfie.jpg');
-    height: 555px;*/
-    box-shadow: 3px -2px 5px black;
-    border: 4px solid;
-    /*background-size: contain;
-    background-repeat: no-repeat;*/
-}
-
     #about p {
         float: right;
     }
